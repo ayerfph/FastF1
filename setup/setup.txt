@@ -1,0 +1,21 @@
+Installing Packages
+pip install virtualenv env
+
+Setup Virtual Environment
+python -m venv env
+
+Activate Scripts in Environment
+.\env\Scripts\activate
+
+to off the environment
+deactivate
+
+After activated, setup the install Packages
+pip3 install -r requirements.txt
+
+To display a list of all installed packages in your environment located at env/
+.\env\Scripts\pip.exe list
+
+To show package names and their exact versions, suitable for requirements files.
+.\env\Scripts\pip.exe freeze
+

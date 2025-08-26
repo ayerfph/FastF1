@@ -21,9 +21,13 @@ I am motivated to pursue a career in **Data Analytics / Data Engineering** becau
 
 ## Getting Started
 
-1. Clone this repository:
+1. Clone the repository:
    ```sh
-   git clone https://github.com/ayerfph/FastF1.git
+   # Note: Change the "first-commit" or branch name to clone any of the branches that I will upload soon
+   git branch -m main first-commit 
+   git fetch origin
+   git branch -u origin/see-branches first-commit 
+   git remote set-head origin -a
    ```
 2. Install dependencies:
    ```sh
